@@ -1,7 +1,8 @@
 import React from "react"
 import './WeatherForecast.css'
-const WeatherForecasts = ({ day, img, imgAlt, conditions, time }) => {
-    return (
+const WeatherForecast = ({ day, img, imgAlt, conditions, time }) => {
+    return ( 
+
 <div className="weather">
      <h2>{day}</h2>
      <img src={img} alt={imgAlt} />
@@ -10,4 +11,4 @@ const WeatherForecasts = ({ day, img, imgAlt, conditions, time }) => {
 </div>
     );
 }
-export default WeatherForecasts;
+export default WeatherForecast;
